@@ -2,12 +2,7 @@ Practical Programming for Biologists (spring 2026)
 ================
 last updated 2026-01-09
 
-<figure>
-<img
-src="https://github.com/andrewalverson/BIOL51573-2026S/blob/main/files/logo.png"
-alt="alt text" />
-<figcaption aria-hidden="true">alt text</figcaption>
-</figure>
+![](https://github.com/andrewalverson/BIOL51573-2026S/blob/main/files/logo.png)
 
 ### The class will introduce students to the basics of scientific computing, including:
 
