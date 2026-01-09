@@ -1,6 +1,6 @@
 BIOL51573 (spring 2026)
 ================
-2026-01-09
+last updated 2026-01-09
 
 ### The class will introduce students to the basics of scientific computing, including:
 
@@ -20,8 +20,8 @@ is approximate and subject to change based on class progress and needs.
 - Enroll in the [DataCamp
   class](https://www.datacamp.com/groups/shared_links/a84f73bdb85e70197f83520ee390e538c16815a1c5b5453db88a14225cfd1ca2)
 
-- Register for an AHPCC user account
-  ([link](https://hpc.uark.edu/hpc-support/user-account-requests/internal.php))
+- Register for an [AHPCC user
+  account](https://hpc.uark.edu/hpc-support/user-account-requests/internal.php)
 
   - note: your advisor is your sponsor
 
