@@ -2,6 +2,13 @@ BIOL51573 (spring 2026)
 ================
 last updated 2026-01-09
 
+<figure>
+<img
+src="https://github.com/andrewalverson/BIOL51573-2026S/blob/main/files/logo.png"
+alt="alt text" />
+<figcaption aria-hidden="true">alt text</figcaption>
+</figure>
+
 ### The class will introduce students to the basics of scientific computing, including:
 
 - projects and file organization
@@ -28,4 +35,4 @@ is approximate and subject to change based on class progress and needs.
 - Find and bookmark the class [GitHub
   page](https://github.com/andrewalverson/BIOL51573-2026S/tree/main)
 
-  - Download `biol51573.tgz`
+  - Download `files.tgz`
