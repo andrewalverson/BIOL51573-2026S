@@ -1,4 +1,4 @@
-BIOL 5153: Practical Programming for Biologists
+BIOL 51573: Practical Programming for Biologists
 ================
 
 ## Instructor
