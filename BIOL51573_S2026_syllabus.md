@@ -66,7 +66,7 @@ result in a net decrease in your grade.
 - *Bioinformatics Programming Using Python* by Mitchell Model (ISBN:
   978-0596154509)
 - *Learning Python* by Mark Lutz (ISBN: 978-1449355739)
-- *Automate the Boring Stuff with Python, 2nd Edition* by Al Sweigart ((link)[https://automatetheboringstuff.com/])
+- *Automate the Boring Stuff with Python, 2nd Edition* by Al Sweigart ([link](https://automatetheboringstuff.com/))
 
 Each of these books has its strengths and weaknesses, and no single book
 overlaps perfectly with the content of this course. In addition, there
