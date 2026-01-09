@@ -1,4 +1,4 @@
-BIOL51573 (spring 2026)
+Practical Programming for Biologists (spring 2026)
 ================
 last updated 2026-01-09
 
