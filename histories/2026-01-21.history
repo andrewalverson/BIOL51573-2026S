@@ -1,0 +1,76 @@
+12674  2026-01-21 pwd
+12675  2026-01-21 cd Drive/teaching/BIOL51573_PROGRAMMING/2026S/
+12676  2026-01-21 c
+12677  2026-01-21 cd sandbox/
+12678  2026-01-21 c
+12679  2026-01-21 cd file_types/
+12680  2026-01-21 ls
+12681  2026-01-21 open .
+12682  2026-01-21 ls -a
+12683  2026-01-21 cd ..
+12684  2026-01-21 cd file_types/
+12685  2026-01-21 ls
+12686  2026-01-21 ls -a
+12687  2026-01-21 ls -al
+12688  2026-01-21 cd ..
+12689  2026-01-21 ls
+12690  2026-01-21 cd data/
+12691  2026-01-21 ls -al
+12692  2026-01-21 cd watermelon_genome/
+12693  2026-01-21 ls -al
+12694  2026-01-21 ls -al aa/atp*
+12695  2026-01-21 cd aa/
+12696  2026-01-21 ls -al atp*
+12697  2026-01-21 ls -alh atp*
+12698  2026-01-21 ls -alh *
+12699  2026-01-21 cd ..
+12700  2026-01-21 c
+12701  2026-01-21 cd mt_genomes/
+12702  2026-01-21 ls -alh *
+12703  2026-01-21 ls -alS
+12704  2026-01-21 cd ..
+12705  2026-01-21 c
+12706  2026-01-21 cat watermelon.fsa 
+12707  2026-01-21 cd ..
+12708  2026-01-21 c
+12709  2026-01-21 pwd
+12710  2026-01-21 cat fruit.txt 
+12711  2026-01-21 cat letters.txt 
+12712  2026-01-21 cat letters.txt fruit.txt 
+12713  2026-01-21 ls -al
+12714  2026-01-21 cd watermelon_genome/
+12715  2026-01-21 ls -al
+12716  2026-01-21 cat aa/nad1.fasta aa/nad2.fasta aa/nad5.fasta 
+12717  2026-01-21 cat aa/nad*
+12718  2026-01-21 cat aa/nad* nt/nad*
+12719  2026-01-21 cat aa/nad* nt/nad* > nad-genes.txt
+12720  2026-01-21 cat aa/nad* nt/nad* > ~/Desktop/nad-genes.txt
+12721  2026-01-21 cat ~/Desktop/nad-genes.txt 
+12722  2026-01-21 echo beyonce > ~/Desktop/nad-genes.txt 
+12723  2026-01-21 cat ~/Desktop/nad-genes.txt 
+12724  2026-01-21 cat aa/nad* nt/nad* >> ~/Desktop/nad-genes.txt
+12725  2026-01-21 edit ~/Desktop/nad-genes.txt
+12726  2026-01-21 ls -al
+12727  2026-01-21 cat mt_genomes/citrullus_lanatus.fasta nt/*.fasta aa/* > ~/Desktop/watermelon_data.fasta
+12728  2026-01-21 c
+12729  2026-01-21 cat name.txt 
+12730  2026-01-21 cat name.txt mt_genomes/citrullus_lanatus.fasta nt/*.fasta aa/* > ~/Desktop/watermelon_data.fasta
+12731  2026-01-21 cat name.txt 
+12732  2026-01-21 cat name.txt mt_genomes/citrullus_lanatus.fasta nt/*.famiami.txt sta aa/*
+12733  2026-01-21 cat name.txt mt_genomes/citrullus_lanatus.fasta nt/*.famiami.txt sta aa/* > /tmp/junk.txt
+12734  2026-01-21 cat name.txt mt_genomes/citrullus_lanatus.fasta nt/*.famiami.txt sta aa/* > /tmp/junk.txt 2>out.err
+12735  2026-01-21 cat out.err 
+12736  2026-01-21 man cat
+12737  2026-01-21 man ls
+12738  2026-01-21 c
+12739  2026-01-21 less nad-genes.txt 
+12740  2026-01-21 c
+12741  2026-01-21 cd ..
+12742  2026-01-21 c
+12743  2026-01-21 up
+12744  2026-01-21 c
+12745  2026-01-21 up
+12746  2026-01-21 c
+12747  2026-01-21 cd histories/
+12748  2026-01-21 c
+12749  2026-01-21 history | grep '2026-01-21' > 2026-01-21.history
