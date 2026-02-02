@@ -1,0 +1,134 @@
+12840  2026-02-02 c
+12841  2026-02-02 cd
+12842  2026-02-02 cd Drive/teaching/BIOL51573_PROGRAMMING/2026S/
+12843  2026-02-02 c
+12844  2026-02-02 cd files
+12845  2026-02-02 c
+12846  2026-02-02 cd file_types/
+12847  2026-02-02 c
+12848  2026-02-02 less -S watermelon.gff
+12849  2026-02-02 less -S watermelon.mac.gff 
+12850  2026-02-02 less -S watermelon.gff.docx 
+12851  2026-02-02 cp watermelon.gff watermelon.copy
+12852  2026-02-02 ls -al
+12853  2026-02-02 pwd
+12854  2026-02-02 ls -al
+12855  2026-02-02 mv watermelon.copy ~/Desktop/
+12856  2026-02-02 ls -al ~/Desktop/
+12857  2026-02-02 c
+12858  2026-02-02 cp watermelon.gff ../
+12859  2026-02-02 cd ..
+12860  2026-02-02 ls -al
+12861  2026-02-02 mv watermelon.gff watermelon.newname.gff
+12862  2026-02-02 ls -al
+12863  2026-02-02 mv watermelon.newname.gff ~/Desktop/watermelon.desktop.gff
+12864  2026-02-02 ls -al
+12865  2026-02-02 ls -al ~/Desktop/
+12866  2026-02-02 cd 
+12867  2026-02-02 pwd
+12868  2026-02-02 cd Desktop/
+12869  2026-02-02 c
+12870  2026-02-02 ls -al watermelon*
+12871  2026-02-02 nano watermelon.copy 
+12872  2026-02-02 less -S watermelon.copy 
+12873  2026-02-02 mv watermelon.desktop.gff watermelon.copy 
+12874  2026-02-02 less -S watermelon.copy 
+12875  2026-02-02 mkdir today
+12876  2026-02-02 cd today/
+12877  2026-02-02 ls -al
+12878  2026-02-02 mv ../watermelon* .
+12879  2026-02-02 touch file1 file2
+12880  2026-02-02 ls -al
+12881  2026-02-02 touch file3 file4
+12882  2026-02-02 mkdir tomorrow
+12883  2026-02-02 cd tomorrow/
+12884  2026-02-02 touch file5 file6
+12885  2026-02-02 c
+12886  2026-02-02 pwd
+12887  2026-02-02 cd ..
+12888  2026-02-02 c
+12889  2026-02-02 rm watermelon.copy 
+12890  2026-02-02 c
+12891  2026-02-02 rm -i file1 
+12892  2026-02-02 c
+12893  2026-02-02 rm -i file1 
+12894  2026-02-02 c
+12895  2026-02-02 cd ..
+12896  2026-02-02 ls -al
+12897  2026-02-02 rm -r today/
+12898  2026-02-02 c
+12899  2026-02-02 mkdir backup_screenshots
+12900  2026-02-02 c
+12901  2026-02-02 up
+12902  2026-02-02 bk
+12903  2026-02-02 c
+12904  2026-02-02 mv Screen*.png backup_screenshots/
+12905  2026-02-02 cp backup_screenshots/*.png .
+12906  2026-02-02 c
+12907  2026-02-02 ls -al backup_screenshots/
+12908  2026-02-02 c
+12909  2026-02-02 rm Screenshot\ 202*.png
+12910  2026-02-02 c
+12911  2026-02-02 cd
+12912  2026-02-02 cd Drive/teaching/BIOL51573_PROGRAMMING/2026S/files
+12913  2026-02-02 c
+12914  2026-02-02 cd data
+12915  2026-02-02 c
+12916  2026-02-02 pwd
+12917  2026-02-02 wc -l cowboy_carter.txt 
+12918  2026-02-02 less -S cowboy_carter.txt 
+12919  2026-02-02 wc -l letters.txt 
+12920  2026-02-02 pwd
+12921  2026-02-02 ls -al
+12922  2026-02-02 cat fruit.txt 
+12923  2026-02-02 sort fruit.txt 
+12924  2026-02-02 sort -k2 fruit.txt 
+12925  2026-02-02 sort -k1gr fruit.txt 
+12926  2026-02-02 c
+12927  2026-02-02 cd watermelon_genome/
+12928  2026-02-02 c
+12929  2026-02-02 less -S watermelon.gff 
+12930  2026-02-02 grep rps watermelon.gff 
+12931  2026-02-02 cd ..
+12932  2026-02-02 c
+12933  2026-02-02 cat fruit.txt 
+12934  2026-02-02 grep pear fruit.txt 
+12935  2026-02-02 grep ple fruit.txt 
+12936  2026-02-02 grep MI fruit.txt 
+12937  2026-02-02 grep -i mi fruit.txt 
+12938  2026-02-02 grep -i MI fruit.txt 
+12939  2026-02-02 cat fruit.txt 
+12940  2026-02-02 grep -v MI fruit.txt 
+12941  2026-02-02 c
+12942  2026-02-02 less -S shaver_etal.csv 
+12943  2026-02-02 grep -i toolik shaver_etal.csv 
+12944  2026-02-02 grep -i toolik shaver_etal.csv > toolik.csv
+12945  2026-02-02 wc -l toolik.csv 
+12946  2026-02-02 wc -l shaver_etal.csv 
+12947  2026-02-02 less -S shaver_etal.csv 
+12948  2026-02-02 grep -i 'toolik lake' shaver_etal.csv
+12949  2026-02-02 grep -i 'toolik lake' shaver_etal.csv > toolik-lake.csv
+12950  2026-02-02 wc -l toolik-lake.csv 
+12951  2026-02-02 c
+12952  2026-02-02 cd watermelon_genome/
+12953  2026-02-02 c
+12954  2026-02-02 pwd
+12955  2026-02-02 ls -al nt/
+12956  2026-02-02 c
+12957  2026-02-02 cat nt/*.fasta
+12958  2026-02-02 cat nt/*.fasta > genes.fa
+12959  2026-02-02 cat genes.fa 
+12960  2026-02-02 grep -c > genes.fa 
+12961  2026-02-02 cat genes.fa 
+12962  2026-02-02 cat nt/*.fasta > genes.fa
+12963  2026-02-02 cat genes.fa 
+12964  2026-02-02 grep -c '>' genes.fa 
+12965  2026-02-02 up
+12966  2026-02-02 c
+12967  2026-02-02 u[
+12968  2026-02-02 up
+12969  2026-02-02 c
+12970  2026-02-02 up
+12971  2026-02-02 c
+12972  2026-02-02 history
+12973  2026-02-02 history | grep '2026-02-02' > histories/2026-02-02.history
