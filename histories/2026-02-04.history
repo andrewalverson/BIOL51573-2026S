@@ -1,0 +1,206 @@
+13006  2026-02-04 l genes_for_andy.headers 
+13007  2026-02-04 c
+13008  2026-02-04 cp genes_for_andy.headers ~/Desktop/
+13009  2026-02-04 cd Results_inflation2/
+13010  2026-02-04 c
+13011  2026-02-04 cd Orthogroups/
+13012  2026-02-04 c
+13013  2026-02-04 l Orthogroups.tsv 
+13014  2026-02-04 c
+13015  2026-02-04 cp Orthogroups.tsv ~/Desktop/
+13016  2026-02-04 cp Orthogroups_UnassignedGenes.tsv ~/Desktop/
+13017  2026-02-04 c
+13018  2026-02-04 cd 
+13019  2026-02-04 cd Desktop/
+13020  2026-02-04 c
+13021  2026-02-04 mkdir file-grep
+13022  2026-02-04 mv genes_for_andy.headers Orthogroups* file-grep/
+13023  2026-02-04 c
+13024  2026-02-04 cd file-grep/
+13025  2026-02-04 c
+13026  2026-02-04 grep -f genes_for_andy.headers Orthogroups.tsv 
+13027  2026-02-04 grep -f genes_for_andy.headers Orthogroups.tsv | less -S
+13028  2026-02-04 c
+13029  2026-02-04 grep -o -f genes_for_andy.headers Orthogroups.tsv | less -S
+13030  2026-02-04 grep -o -f genes_for_andy.headers Orthogroups.tsv
+13031  2026-02-04 grep -c -o -f genes_for_andy.headers Orthogroups.tsv
+13032  2026-02-04 cd
+13033  2026-02-04 c
+13034  2026-02-04 cd Drive/teaching/BIOL51573_PROGRAMMING/2026S/files
+13035  2026-02-04 c
+13036  2026-02-04 cd data/
+13037  2026-02-04 c
+13038  2026-02-04 cut -f3 watermelon_genome/watermelon.gff 
+13039  2026-02-04 cut -f3 watermelon_genome/watermelon.gff | sort
+13040  2026-02-04 cut -f3 watermelon_genome/watermelon.gff | sort -u
+13041  2026-02-04 cut -f3 watermelon_genome/watermelon.gff | sort | uniq -c
+13042  2026-02-04 grep -c CDS watermelon_genome/watermelon.g
+13043  2026-02-04 grep -c CDS watermelon_genome/watermelon.gff 
+13044  2026-02-04 c
+13045  2026-02-04 sort letters.txt 
+13046  2026-02-04 sort letters.txt | uniq
+13047  2026-02-04 sort letters.txt | sort -u
+13048  2026-02-04 sort -u letters.txt
+13049  2026-02-04 sort letters.txt 
+13050  2026-02-04 cat letters.txt 
+13051  2026-02-04 uniq letters.txt 
+13052  2026-02-04 cd watermelon_genome/
+13053  2026-02-04 c
+13054  2026-02-04 grep IR watermelon.gff 
+13055  2026-02-04 grep IR watermelon.gff | less -S
+13056  2026-02-04 grep IR watermelon.gff | grep -v IR | less -S
+13057  2026-02-04 c
+13058  2026-02-04 grep chloroplast watermelon.gff | l
+13059  2026-02-04 grep chloroplast watermelon.gff | grep -v IR
+13060  2026-02-04 grep chloroplast watermelon.gff | grep -v IR | less -S
+13061  2026-02-04 grep chloroplast watermelon.gff | grep IR | less -S
+13062  2026-02-04 grep chloroplast watermelon.gff | grep IR | less -Sn
+13063  2026-02-04 grep chloroplast watermelon.gff | grep IR | less -SN
+13064  2026-02-04 c
+13065  2026-02-04 grep chloroplast watermelon.gff | grep IR |  less
+13066  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -k5
+13067  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -k7
+13068  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -gk7
+13069  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -gk7r
+13070  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -gkr7
+13071  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -grk7
+13072  2026-02-04 man sort
+13073  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -grk7 -char "\t"
+13074  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -grk7 -char="\t"
+13075  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -grk7 --char="\t"
+13076  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -grk7 --char=""
+13077  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -grk7 -c "t-"
+13078  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -grk7 | sort -c ""
+13079  2026-02-04 man sort
+13080  2026-02-04 c
+13081  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -grk7 | sort -t ""
+13082  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -grk7 | sort -t $"\t"
+13083  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -t $"\t" -grk7
+13084  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -t $"\t" -grk5
+13085  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -t '\t' -grk5
+13086  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -t '\t' -gk5
+13087  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -t '\t' -gkr5
+13088  2026-02-04 grep chloroplast watermelon.gff | grep IR | sort -t '\t' -grk5
+13089  2026-02-04 c
+13090  2026-02-04 up
+13091  2026-02-04 c
+13092  2026-02-04 up
+13093  2026-02-04 c
+13094  2026-02-04 l logo.png 
+13095  2026-02-04 c
+13096  2026-02-04 open .
+13097  2026-02-04 c
+13098  2026-02-04 up
+13099  2026-02-04 c
+13100  2026-02-04 git status
+13101  2026-02-04 d histories/
+13102  2026-02-04 git push -u origin main
+13103  2026-02-04 c
+13104  2026-02-04 git push -u origin main
+13105  2026-02-04 c
+13106  2026-02-04 cd files/data/
+13107  2026-02-04 c
+13108  2026-02-04 less -S toolik.csv 
+13109  2026-02-04 grep 'Toolik Lake' toolik.csv 
+13110  2026-02-04 grep 'Toolik Lake' toolik.csv > toolik-lake.csv 
+13111  2026-02-04 wc -l toolik-lake.csv 
+13112  2026-02-04 grep -c Aug toolik-lake.csv 
+13113  2026-02-04 grep -c '-Aug-' toolik-lake.csv 
+13114  2026-02-04 grep -c '\-Aug\-' toolik-lake.csv 
+13115  2026-02-04 rm toolik-lake.csv 
+13116  2026-02-04 grep 'Toolik Lake' toolik.csv
+13117  2026-02-04 grep -c 'Toolik Lake' toolik.csv
+13118  2026-02-04 grep -c 'Toolik Lake' toolik.csv | grep '\-Aug\-'
+13119  2026-02-04 grep 'Toolik Lake' toolik.csv | grep '\-Aug\-'
+13120  2026-02-04 grep 'Toolik Lake' toolik.csv | grep -c '\-Aug\-'
+13121  2026-02-04 less -S toolik.csv 
+13122  2026-02-04 grep 'Toolik Lake' toolik.csv | grep -c '\-Aug\-'
+13123  2026-02-04 grep 'Toolik Lake' toolik.csv | grep '\-Aug\-'
+13124  2026-02-04 grep 'Toolik Lake' toolik.csv | grep '\-Aug\-' | less -n -S
+13125  2026-02-04 grep 'Toolik Lake' toolik.csv | grep '\-Aug\-' | less -N -S
+13126  2026-02-04 c
+13127  2026-02-04 cd watermelon_genome/
+13128  2026-02-04 c
+13129  2026-02-04 cd nt/
+13130  2026-02-04 c
+13131  2026-02-04 less -S nad5.fasta 
+13132  2026-02-04 ls *.fasta
+13133  2026-02-04 ls *.fasta | wc -l
+13134  2026-02-04 grep GAATTC *.fasta
+13135  2026-02-04 grep GAATTC *.fasta | less -S
+13136  2026-02-04 grep -o GAATTC *.fasta | less -S
+13137  2026-02-04 grep -l GAATTC *.fasta | less -S
+13138  2026-02-04 cat *.fasta
+13139  2026-02-04 cat *.fasta | grep ATGCCA
+13140  2026-02-04 cat *.fasta | grep ATGCCA | less -S
+13141  2026-02-04 up
+13142  2026-02-04 c
+13143  2026-02-04 up
+13144  2026-02-04 c
+13145  2026-02-04 head -n 70 shaver_etal.csv > data1.csv
+13146  2026-02-04 tail -n 50 shaver_etal.csv > data2.csv
+13147  2026-02-04 cat data1.csv data2.csv | grep 'Toolik'
+13148  2026-02-04 cat data1.csv data2.csv | less -S
+13149  2026-02-04 cat data1.csv data2.csv | grep VIT | less -SN
+13150  2026-02-04 cat data1.csv data2.csv | grep VIT > /tmp/shaver.VIT.csv
+13151  2026-02-04 edit /tmp/shaver.VIT.csv 
+13152  2026-02-04 history
+13153  2026-02-04 history | grep '2026-02-04'
+13154  2026-02-04 c
+13155  2026-02-04 ls -al | less
+13156  2026-02-04 ls -al *.csv | less
+13157  2026-02-04 ls -al *.csv | wc -l
+13158  2026-02-04 c
+13159  2026-02-04 cd watermelon_genome/
+13160  2026-02-04 less -S watermelon.gff 
+13161  2026-02-04 cut -f 6 watermelon.gff 
+13162  2026-02-04 c
+13163  2026-02-04 less -S watermelon.gff 
+13164  2026-02-04 grep intron watermelon.gff | cut -f 6
+13165  2026-02-04 grep intron watermelon.gff | cut -f 6 | sort
+13166  2026-02-04 grep intron watermelon.gff | cut -f 6 | sort -g
+13167  2026-02-04 grep intron watermelon.gff | cut -f 6 | sort -gr
+13168  2026-02-04 c
+13169  2026-02-04 up
+13170  2026-02-04 c
+13171  2026-02-04 rm data1.csv data2.csv 
+13172  2026-02-04 c
+13173  2026-02-04 cat letters.txt 
+13174  2026-02-04 sort letters.txt 
+13175  2026-02-04 cat letters.txt 
+13176  2026-02-04 uniq letters.txt 
+13177  2026-02-04 sort letters.txt | uniq
+13178  2026-02-04 sort -u letters.txt 
+13179  2026-02-04 clear;ls -al;echo beyonce
+13180  2026-02-04 nano bash-script.sh
+13181  2026-02-04 cat bash-script.sh 
+13182  2026-02-04 ls -al
+13183  2026-02-04 chmod u+x bash-script.sh 
+13184  2026-02-04 ls -al
+13185  2026-02-04 nano bash-script.sh 
+13186  2026-02-04 c
+13187  2026-02-04 ./bash-script.sh 
+13188  2026-02-04 c
+13189  2026-02-04 pwd
+13190  2026-02-04 up
+13191  2026-02-04 cp -r data /tmp
+13192  2026-02-04 cd /tmp
+13193  2026-02-04 c
+13194  2026-02-04 cd data/
+13195  2026-02-04 c
+13196  2026-02-04 chmod ugo-rwx */*
+13197  2026-02-04 c
+13198  2026-02-04 chmod ugo-rwx */*
+13199  2026-02-04 chmod ugo-rwx *
+13200  2026-02-04 c
+13201  2026-02-04 ls -al covid_genome/
+13202  2026-02-04 cat fruit.txt 
+13203  2026-02-04 chmod u+r *
+13204  2026-02-04 c
+13205  2026-02-04 chmod ugo-rwx *
+13206  2026-02-04 cat fruit.txt 
+13207  2026-02-04 sudo cat fruit.txt 
+13208  2026-02-04 cd
+13209  2026-02-04 cd Drive/teaching/BIOL51573_PROGRAMMING/2026S/
+13210  2026-02-04 c
+13211  2026-02-04 history | grep '2026-02-04' > histories/2026-02-04.history 
