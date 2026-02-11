@@ -1,0 +1,27 @@
+13279  2026-02-11 exit
+13280  2026-02-11 cd Drive/teaching/BIOL51573_PROGRAMMING/2026S/
+13281  2026-02-11 C
+13282  2026-02-11 c
+13283  2026-02-11 cd files
+13284  2026-02-11 c
+13285  2026-02-11 d data/
+13286  2026-02-11 cd data/
+13287  2026-02-11 c
+13288  2026-02-11 pwd
+13289  2026-02-11 scp fruit.txt aja@hpc-portal2.hpc.uark.edu
+13290  2026-02-11 c
+13291  2026-02-11 rm aja\@hpc-portal2.hpc.uark.edu 
+13292  2026-02-11 scp fruit.txt aja@hpc-portal2.hpc.uark.edu:
+13293  2026-02-11 scp fruit.txt aja@hpc-portal2.hpc.uark.edu:/storage/aja
+13294  2026-02-11 cd ..
+13295  2026-02-11 c
+13296  2026-02-11 scp -r data/ aja@hpc-portal2.hpc.uark.edu:/storage/aja
+13297  2026-02-11 c
+13298  2026-02-11 d other_files/
+13299  2026-02-11 cd other_files/
+13300  2026-02-11 c
+13301  2026-02-11 scp slurm-template.slurm aja@hpc-portal2.hpc.uark.edu:/storage/aja/data/
+13302  2026-02-11 c
+13303  2026-02-11 up
+13304  2026-02-11 c
+13305  2026-02-11 history | grep '2026-02-11' > histories/2026-02-11.history 

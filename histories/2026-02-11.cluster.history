@@ -1,0 +1,51 @@
+  951  ls -al
+  952  cd /storage/aja
+  953  c
+  954  cd
+  955  ls -al
+  956  cd /share/apps/
+  957  ls -al
+  958  cd /share/apps/bioinformatics/
+  959  ls -al
+  960  cd
+  961  ls -alt
+  962  cd /storage/aja/
+  963  c
+  964  cat fruit.txt 
+  965  cd /storage/aja/
+  966  c
+  967  cd data/
+  968  c
+  969  nano slurm-template.slurm 
+  970  cat slurm-template.slurm 
+  971  c
+  972  nano slurm-template.slurm 
+  973  pwd
+  974  sbatch slurm-template.slurm 
+  975  qstat
+  976  qstat | grep aja
+  977  ls -al
+  978  cat slurm-template.slurm 
+  979  c
+  980  qstat | grep aja
+  981  qstat | grep comp01 | less -S
+  982  nano slurm-template.slurm 
+  983  scancel -u aja
+  984  qstat | grep aja
+  985  sbatch slurm-template.slurm 
+  986  cd /storage/aja/orthofinder.v2/
+  987  cd slurm_scripts/
+  988  c
+  989  l orthofinder.slurm
+  990  c
+  991  l orthofinder.inflation2.0.slurm
+  992  scancel -u aja
+  993  bk
+  994  cd /storage/aja/data/
+  995  nano slurm-template.slurm 
+  996  sbatch slurm-template.slurm 
+  997  ls -al
+  998  c
+  999  qstat | grep aja
+ 1000  history
+ 1004  history | tail -n 54 > 2026-02-11.cluster.history
