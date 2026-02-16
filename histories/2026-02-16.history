@@ -1,0 +1,112 @@
+13470  2026-02-16 exit
+13480  2026-02-16 up
+13481  2026-02-16 c
+13482  2026-02-16 cd data/
+13483  2026-02-16 c
+13484  2026-02-16 cd watermelon_genome/
+13485  2026-02-16 c
+13486  2026-02-16 exit
+13487  2026-02-16 cd Drive/teaching/BIOL51573_PROGRAMMING/2026S/
+13488  2026-02-16 c
+13489  2026-02-16 cd files/data/
+13490  2026-02-16 pin
+13491  2026-02-16 c
+13492  2026-02-16 up
+13493  2026-02-16 c
+13494  2026-02-16 cd other_files/
+13495  2026-02-16 c
+13496  2026-02-16 less bash_profile.txt 
+13497  2026-02-16 cx bash_profile.txt 
+13498  2026-02-16 c
+13499  2026-02-16 cd
+13500* 2026-02-16 cat 
+13501  2026-02-16 less bash_profile.txt 
+13502  2026-02-16 c
+13503  2026-02-16 cat .alias 
+13504  2026-02-16 weather
+13505  2026-02-16 less bash_profile.txt 
+13506  2026-02-16 less .alias 
+13507  2026-02-16 c
+13508  2026-02-16 cx job.slurm 
+13509  2026-02-16 c
+13510  2026-02-16 cd Drive/teaching/BIOL51573_PROGRAMMING/
+13511  2026-02-16 c
+13512  2026-02-16 cd 2026S/files
+13513  2026-02-16 c
+13514  2026-02-16 cd data/
+13515  2026-02-16 c
+13516  2026-02-16 cd watermelon_genome/
+13517  2026-02-16 c
+13518  2026-02-16 cd nt/
+13519  2026-02-16 c
+13520  2026-02-16 ls | wc -l
+13521  2026-02-16 ls *.fasta | wc -l
+13522  2026-02-16 nano blast-loop.sh
+13523  2026-02-16 cx blast-loop.sh 
+13524  2026-02-16 chmod u+x blast-loop.sh 
+13525  2026-02-16 ./blast-loop.sh 
+13526  2026-02-16 for i in *.blastn;do echo 'my file:' $i;done
+13527  2026-02-16 for i in *.blastn;do echo my file $i;done
+13528  2026-02-16 for i in *.blastn;do echo $i;done
+13529  2026-02-16 c
+13530  2026-02-16 for i in *.fasta;do echo $i;done
+13531  2026-02-16 c
+13532  2026-02-16 nano blast-loop.sh 
+13533  2026-02-16 ./blast-loop.sh 
+13534  2026-02-16 ./blast-loop.sh > my-blast-commands.sh
+13535  2026-02-16 head my-blast-commands.sh 
+13536  2026-02-16 nano blast-loop.sh 
+13537  2026-02-16 ./blast-loop.sh 
+13538  2026-02-16 nano blast-loop.sh 
+13539  2026-02-16 pwd
+13540  2026-02-16 cd
+13541  2026-02-16 touch test-move.txt
+13542  2026-02-16 bk
+13543  2026-02-16 c
+13544  2026-02-16 pwd
+13545  2026-02-16 up
+13546  2026-02-16 c
+13547  2026-02-16 up
+13548  2026-02-16 c
+13549  2026-02-16 pwd
+13550  2026-02-16 mv ~/test-move.txt watermelon_genome/nt/
+13551  2026-02-16 cd watermelon_genome/nt/
+13552  2026-02-16 c
+13553  2026-02-16 rm test-move.txt 
+13554  2026-02-16 c
+13555  2026-02-16 for i in *.fasta;do echo mv $i ${i%.fasta}.fsa;done
+13556  2026-02-16 mv rps19-1.fasta rps19-1.fsa
+13557  2026-02-16 cat rps19-1.fsa 
+13558  2026-02-16 cd ..
+13559  2026-02-16 cp -r nt/ /tmp
+13560  2026-02-16 cp -r nt /tmp/
+13561  2026-02-16 cd /tmp/nt/
+13562  2026-02-16 for i in *.fasta;do echo mv $i ${i%.fasta}.fsa;done
+13563  2026-02-16 for i in *.fasta;do mv $i ${i%.fasta}.fsa;done
+13564  2026-02-16 c
+13565  2026-02-16 md5sum 
+13566  2026-02-16 which md5sum
+13567  2026-02-16 which md5
+13568  2026-02-16 up
+13569  2026-02-16 c
+13570  2026-02-16 cd
+13571  2026-02-16 c
+13572  2026-02-16 cd Drive/teaching/BIOL51573_PROGRAMMING/2026S/
+13573  2026-02-16 c
+13574  2026-02-16 cd files
+13575  2026-02-16 c
+13576  2026-02-16 cd data/
+13577  2026-02-16 c
+13578  2026-02-16 md5sum cowboy_carter.txt 
+13579  2026-02-16 nano cowboy_carter.txt 
+13580  2026-02-16 md5sum cowboy_carter.txt 
+13581  2026-02-16 nano cowboy_carter.txt 
+13582  2026-02-16 md5sum cowboy_carter.txt 
+13583  2026-02-16 md5sum cowboy_carter.txt > cowboy_carter.md5sum
+13584  2026-02-16 c
+13585  2026-02-16 up
+13586  2026-02-16 c
+13587  2026-02-16 up
+13588  2026-02-16 c
+13589  2026-02-16 history | grep history
+13590  2026-02-16 history | grep '2026-02-16' > histories/2026-02-16.history
