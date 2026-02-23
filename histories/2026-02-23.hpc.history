@@ -1,0 +1,271 @@
+
+  734  cp slurm-template.slurm watermelon_genome/atp9-blastn.slurm
+  735  cd watermelon_genome/
+  736  c
+  737  nano atp9-blastn.slurm 
+  738  module load blast
+  739  makeblastdb -in watermelon.fsa -dbtype nucl
+  740  c
+  741  rm watermelon.fsa.*
+  742  c
+  743  nano atp9-blastn.slurm 
+  744  sbatch atp9-blastn.slurm 
+  745  d nt/
+  746  c
+  747  cat atp9.blast.1038811.err 
+  748  module avail
+  749  module purge
+  750  module load blast/2.10.0+bin
+  751  blastn
+  752  module purge
+  753  module load blast
+  754  blastn
+  755  makeblastdb
+  756  c
+  757  nano atp9-blastn.slurm 
+  758  nano 
+  759  nano atp9-blastn.slurm 
+  760  exit
+  761  cd /storage/
+  762  cd aja/
+  763  c
+  764  cd data/
+  765  c
+  766  cd watermelon_genome/
+  767  c
+  768  l atp9-blastn.slurm 
+  769  exit
+  770  cd /storage/aja/data/
+  771  c
+  772  cat slurm-template.slurm 
+  773  sbatch slurm-template.slurm 
+  774  rm *.err *.out
+  775  c
+  776  qstat | grep aja
+  777  c
+  778  cat out 
+  779  cat aja.test.1040653.err 
+  780  cat aja.test.1040653.out 
+  781  cd watermelon_genome/
+  782  c
+  783  sbatch atp9-blastn.slurm 
+  784  rm atp9.blast.1038811.err atp9.blast.1038811.out 
+  785  c
+  786  cat atp9.blast.1040659.err
+  787  cat atp9.blast.1040659.out
+  788  c
+  789  qstat | grep aja
+  790  c
+  791  cat atp9.vs.watermelon.blastn 
+  792  cat atp9-blastn.slurm 
+  793  module purge
+  794  module load intel/18.0.1 impi/18.0.1 mkl/18.0.1
+  795  module load blast
+  796  makeblastdb -in watermelon.fsa -dbtype nucl
+  797  c
+  798  cat atp9.blast.1040659.err 
+  799  c
+  800  rm watermelon.fsa.*
+  801  c
+  802  rm *.err *.out
+  803  c
+  804  sbatch atp9-blastn.slurm 
+  805  c
+  806  qstat | grep aja
+  807  c
+  808  cat atp9.blast.1040660.out
+  809  c
+  810  cat atp9.blast.1040660.err
+  811  up
+  812  c
+  813  sbatch slurm-template.slurm 
+  814  c
+  815  qstat | grep aja
+  816  c
+  817  cataja.test.1040662.err
+  818  cat aja.test.1040662.err
+  819  cd /storage/aja/data/
+  820  c
+  821  cd watermelon_genome/
+  822  c
+  823  cat atp9-blastn.slurm
+  824  pwd
+  825  cat atp9.blast.1040660.err 
+  826  c
+  827  up
+  828  c
+  829  sbatch slurm-template.slurm 
+  830  c
+  831  cat aja.test.1040653.err
+  832  cat aja.test.1040662.err 
+  833  pwd
+  834  c
+  835  cat aja.test.1040763.err
+  836  c
+  837  exit
+  838  cd /storage/aja/data
+  839  ls -alrt
+  840  sbatch slurm-template.slurm
+  841  jp.sh | grep 1040864
+  842  ls -alrt
+  843  cat /scr2/1040864/mach*
+  844  cat /scr1/1040653/mach*
+  845  cat /scr2/1040662/mach*
+  846  cat /scr1/1040763/mach*
+  847  cat /scr2/1040864/mach*
+  848  ls -alrt
+  849  ssh c1401 state.sh
+  850  exit
+  851  cd /storage/aja/data/
+  852  c
+  853  sbatch slurm-template.slurm 
+  854  cd watermelon_genome/
+  855  c
+  856  sbatch atp9-blastn.slurm
+  857  c
+  858  qstat | grep aja
+  859  up
+  860  c
+  861  dt
+  862  cat aja.test.1045406.out
+  863  cat aja.test.1045406.err
+  864  cat out 
+  865  c
+  866  rm *.err *.out
+  867  c
+  868  cd watermelon_genome/
+  869  c
+  870  l atp9.vs.watermelon.blastn
+  871  c
+  872  dt
+  873  cat atp9.blast.1045407.out
+  874  c
+  875  rm *.err *.out
+  876  rm watermelon.fsa.*
+  877  c
+  878  up
+  879  c
+  880  exit
+  881  write_pinnacle_slurm.py a
+  882  cd /storage/aja/orthofinder.v2/
+  883  c
+  884  l genome-dataset-orthofinder-inflation-tests.slurm
+  885  cd slurm_scripts/
+  886  c
+  887  dt
+  888  l orthofinder.slurm
+  889  l orthofinder.2.slurm
+  890  up
+  891  c
+  892  cd data/
+  893  c
+  894  cd watermelon_genome/
+  895  c
+  896  nano atp9-blastn.slurm 
+  897  c
+  898  rm atp9.vs.watermelon.blastn 
+  899  sbatch atp9-blastn.slurm
+  900  c
+  901  qstat | grep aja
+  902  c
+  903  cat atp9.blast.1047855.err
+  904  nano atp9-blastn.slurm 
+  905  rm atp9.blast.1047855.*
+  906  c
+  907  sbatch atp9-blastn.slurm
+  908  c
+  909  qstat | grep aja
+  910  c
+  911  cat atp9.blast.1047856.out
+  912  c
+  913  cat atp9.vs.watermelon.blastn
+  914  c
+  915  rm watermelon.fsa.*
+  916  c
+  917  cat atp9.blast.1047856.out
+  918   c
+  919  rm atp9.blast.1047856.*
+  920  c
+  921  rm machinefile_104785*
+  922  c
+  923  rm .DS_Store 
+  924  c
+  925  rm atp9.vs.watermelon.blastn
+  926  c
+  927  cat atp9-blastn.slurm 
+  928  c
+  929  pwd
+  930  exit
+  931  cd /storage/aja/
+  932  c
+  933  cd data/
+  934  c
+  935  cd watermelon_genome/
+  936  c
+  937  cd ..
+  938  c
+  939  cd watermelon_genome/
+  940  c
+  941  less -S atp9-blastn.slurm 
+  942  module avail
+  943  blastn
+  944  less -S atp9-blastn.slurm 
+  945  ls -al
+  946  less -S atp9-blastn.slurm 
+  947  tail -20 atp9-blastn.slurm 
+  948  tail -10 atp9-blastn.slurm 
+  949  module load blastn
+  950  module load blast
+  951  makeblastdb 
+  952  tail -10 atp9-blastn.slurm 
+  953  ls -al
+  954  sbatch atp9-blastn.slurm 
+  955  c
+  956  cat atp9-blastn.slurm 
+  957  ls -al
+  958  c
+  959  less atp9.blast.1047920.out 
+  960  less atp9.vs.watermelon.blastn 
+  961  cd /scr2/1047920
+  962  ls -al
+  963  bk
+  964  c
+  965  pwd
+  966  c
+  967  l atp9.vs.watermelon.blastn 
+  968  c
+  969  cat atp9-blastn.slurm
+  970  c
+  971  for i in nt/*.fasta;do echo $i;done
+  972  for i in nt/*.fasta;do echo blastn -query $i -db watermelon.fsa;done
+  973  for i in nt/*.fasta;do echo blastn -query $i -db watermelon.fsa '>' ${i%.fasta}.blastn;done
+  974  for i in nt/*.fasta;do echo blastn -query $i -db watermelon.fsa '>' ${i%.fasta}.blastn;done > blast_commands.sh
+  975  less blast_commands.sh 
+  976  wc -l blast_commands.sh 
+  977  c
+  978  cp atp9-blastn.slurm all-blastn.slurm
+  979  nano all-blastn.slurm 
+  980  sbatch all-blastn.slurm 
+  981  c
+  982  nano all-blastn.slurm 
+  983  c
+  984  cd nt/
+  985  c
+  986  ls -al *.blastn
+  987  less rps3.blastn
+  988  ls -al *.blastn
+  989  up
+  990  c
+  991  less all-blastn.slurm 
+  992  module avail
+  993  module load blender
+  994  exit
+  995  module avail | blen
+  996  module avail | grep blen
+  997  module avail
+  998  c
+  999  exit
+ 1000  history | grep '2026-02-23'
+ 1001  c
+ 1002  history
+ 1003  history > 2026-02-23.hpc.history

@@ -1,0 +1,3 @@
+13637  2026-02-23 scp aja@hpc-portal2.hpc.uark.edu:/storage/aja/data/watermelon_genome/*.blastn .
+13672  2026-02-23 history | grep '2026-02-23' > histories/2026-02-23.history
+13639  2026-02-23 exit
