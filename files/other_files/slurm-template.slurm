@@ -18,8 +18,12 @@ module load intel/18.0.1 impi/18.0.1 mkl/18.0.1
 
 cd $SLURM_SUBMIT_DIR
 
-# job command here
+# prints to STDOUT
 cat letters.txt
+
+# prints to file
 cat cowboy_carter.txt > out
+
+# file doesn't exist - prints message to STDERR
 cat andy.txt
 
