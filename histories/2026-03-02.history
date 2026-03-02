@@ -1,0 +1,69 @@
+13729  2026-03-02 cd Downloads/
+13730  2026-03-02 c
+13731  2026-03-02 mkdir biol51573
+13732  2026-03-02 cd biol51573/
+13733  2026-03-02 mkdir scripts
+13734  2026-03-02 git init
+13735  2026-03-02 ls -al
+13736  2026-03-02 mkdir ppt
+13737  2026-03-02 c
+13738  2026-03-02 touch README.md
+13739  2026-03-02 ls -al
+13740  2026-03-02 touch .gitignore
+13741  2026-03-02 ls -al
+13742  2026-03-02 git status
+13743  2026-03-02 git add .gitignore README.md 
+13744  2026-03-02 git status
+13745  2026-03-02 git commit -m 'first commit'
+13746  2026-03-02 nano README.md 
+13747  2026-03-02 git status
+13748  2026-03-02 git add README.md 
+13749  2026-03-02 git commit -m 'added header to README'
+13750  2026-03-02 cd scripts
+13751  2026-03-02 touch hello_world.py
+13752  2026-03-02 head ~/local/src/scripts/write_pinnacle_slurm.py 
+13753  2026-03-02 nano hello_world.py 
+13754  2026-03-02 cd ..
+13755  2026-03-02 ls -al
+13756  2026-03-02 git status
+13757  2026-03-02 git add scripts/
+13758  2026-03-02 git status
+13759  2026-03-02 git commit -m 'my first Python script'
+13760  2026-03-02 cd scripts/
+13761  2026-03-02 c
+13762  2026-03-02 chmod u+x hello_world.py 
+13763  2026-03-02 ./hello_world.py 
+13764  2026-03-02 nano hello_world.py 
+13765  2026-03-02 ./hello_world.py 
+13766  2026-03-02 cat hello_world.py 
+13767  2026-03-02 ls -al
+13768  2026-03-02 cd ..
+13769  2026-03-02 c
+13770  2026-03-02 git status
+13771  2026-03-02 git add scripts/hello_world.py 
+13772  2026-03-02 git commit -m 'prompt for name, then added a personal greeting'
+13773  2026-03-02 cd scripts/
+13774  2026-03-02 nano hello_world.py 
+13775  2026-03-02 cd ..
+13776  2026-03-02 ls -al
+13777  2026-03-02 git status
+13778  2026-03-02 git add scripts/hello_world.py 
+13779  2026-03-02 git commit -m 'added comments to code'
+13780  2026-03-02 bk
+13781  2026-03-02 c
+13782  2026-03-02 cat hello_world.py 
+13783  2026-03-02 c
+13784  2026-03-02 cd ..
+13785  2026-03-02 c
+13786  2026-03-02 nano README.md 
+13787  2026-03-02 git status
+13788  2026-03-02 git add README.md 
+13789  2026-03-02 git commit -m "updated README"
+13790  2026-03-02 touch CV.md
+13791  2026-03-02 git status
+13792  2026-03-02 git add README.md 
+13793  2026-03-02 git status
+13794  2026-03-02 git add CV.md 
+13795  2026-03-02 git commit -m 'first commit'
+13802  2026-03-02 cd histories/
+13804  2026-03-02 history | grep '2026-03-02' > 2026-03-02.history
