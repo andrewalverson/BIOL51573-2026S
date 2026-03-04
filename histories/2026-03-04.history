@@ -1,0 +1,50 @@
+13846  2026-03-04 cd files
+13847  2026-03-04 c
+13848  2026-03-04 d python_scripts/
+13849  2026-03-04 c
+13850  2026-03-04 up
+13851  2026-03-04 c
+13852  2026-03-04 git status
+13853  2026-03-04 cat .gitignore 
+13854  2026-03-04 cd files/python_scripts/
+13855  2026-03-04 c
+13856  2026-03-04 cp ~/Downloads/biol51573/scripts/hello_world.py .
+13857  2026-03-04 nano hello_world.py 
+13858  2026-03-04 c
+13859  2026-03-04 up
+13860  2026-03-04 c
+13861  2026-03-04 cd python_scripts/
+13862  2026-03-04 c
+13863  2026-03-04 chmod u+x hello_world.py 
+13864  2026-03-04 ./hello_world.py 
+13865  2026-03-04 chmod u-x hello_world.py 
+13866  2026-03-04 c
+13867  2026-03-04 python3 hello_world.py 
+13868  2026-03-04 up
+13869  2026-03-04 c
+13870  2026-03-04 up
+13871  2026-03-04 c
+13872  2026-03-04 git status
+13873  2026-03-04 git add files/python_scripts/
+13874  2026-03-04 git status
+13875  2026-03-04 git commit -m 'first commit from class, 04-Mar-2026'
+13876  2026-03-04 git push -u origin main
+13877  2026-03-04 bk
+13878  2026-03-04 c
+13879  2026-03-04 cd python_scripts/
+13880  2026-03-04 c
+13881  2026-03-04 chmod u+x hello_world.py 
+13882  2026-03-04 ./hello_world.py 
+13883  2026-03-04 cd ../../
+13884  2026-03-04 c
+13885  2026-03-04 git status
+13886  2026-03-04 git add files/python_scripts/hello_world.py 
+13887  2026-03-04 git commit -m 'added a greeting, comments, and math
+13888  2026-03-04 git push -u origin main
+13889  2026-03-04 git status
+13890  2026-03-04 git add files/python_scripts/hello_world.ipynb 
+13891  2026-03-04 git status
+13892  2026-03-04 git commit -m 'first commit of a python notebook'
+13893  2026-03-04 git push -u origin main
+13894  2026-03-04 c
+13895  2026-03-04 history | grep '2026-03-04' > 2026-03-04.history
