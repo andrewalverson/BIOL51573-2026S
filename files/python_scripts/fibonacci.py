@@ -10,6 +10,11 @@ parser = argparse.ArgumentParser(description="This script calculates the number 
 # add a positional argument, in this case, the position in the Fibonacci sequence
 parser.add_argument("position", help="Position in the Fibonacci sequence", type=int)
 
+# an optional argument for verbose output or not
+# if 'store_true', this means assign 'True' if the optional argument is specified
+# on the command line, so the default for 'store_true' is actually false
+parser.add_argument("-v", "--verbose", help="Print verbose output", action='store_true')
+
 # parse the arguments
 args = parser.parse_args()
 
@@ -21,4 +26,7 @@ for i in range(int(args.position)):
 
 fibonacci_number = a
 
-print(f"The Fibonacci number for {args.position} is {fibonacci_number}.")
+if args.verbose:
+    print(f"The Fibonacci number for {args.position} is {fibonacci_number}.")
+else:
+    print(fibonacci_number)
