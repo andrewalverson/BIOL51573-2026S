@@ -1,0 +1,41 @@
+14930  2026-04-01 c
+14931  2026-04-01 open files/python_scripts/fibonacci.py 
+14932  2026-04-01 git status
+14933  2026-04-01 c
+14934  2026-04-01 git status
+14935  2026-04-01 git add files/python_scripts/fibonacci.py 
+14936  2026-04-01 git commit -m 'work completed 30-Mar-2026'
+14937  2026-04-01 git push -u origin main
+14938  2026-04-01 c
+14939  2026-04-01 git status
+14940  2026-04-01 git branch fib-functions
+14941  2026-04-01 git branch
+14942  2026-04-01 git checkout fib-functions
+14943  2026-04-01 git branch
+14944  2026-04-01 git status
+14945  2026-04-01 git add files/python_scripts/fibonacci.py
+14946  2026-04-01 git status
+14947  2026-04-01 git commit -m "broke the code into functions, but they don't work yet"
+14948  2026-04-01 git status
+14949  2026-04-01 git commit -m "broke the code into functions, but they don't work yet"
+14950  2026-04-01 c
+14951  2026-04-01 cd files/python_scripts/
+14952  2026-04-01 c
+14953  2026-04-01 ./fibonacci.py 
+14954  2026-04-01 ./fibonacci.py -h
+14955  2026-04-01 ./fibonacci.py 20 -v
+14956  2026-04-01 ./fibonacci.py --verbose 20
+14957  2026-04-01 bk
+14958  2026-04-01 c
+14959  2026-04-01 git status
+14960  2026-04-01 git add files/python_scripts/fibonacci.py
+14961  2026-04-01 git commit -m 'all the functions work'
+14962  2026-04-01 git branch
+14963  2026-04-01 git checkout main
+14964  2026-04-01 git branch
+14965  2026-04-01 git merge fib-functions
+14966  2026-04-01 git status
+14967  2026-04-01 git push -u origin main
+14968  2026-04-01 c
+14969  2026-04-01 history | grep history | grep histories
+14970  2026-04-01 history | grep '2026-04-01' > histories/2026-04-01.history
