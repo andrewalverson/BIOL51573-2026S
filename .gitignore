@@ -4,4 +4,4 @@ syllabus_and_schedule/S2026_schedule.gsheet
 private/syllabus_and_schedule/
 README.Rmd
 files/python_scripts/.ipynb_checkpoints/
-
+files/python_scripts/__pycache__/
