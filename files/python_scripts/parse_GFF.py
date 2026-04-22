@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 
-def read_fasta():
+import argparse
+import gff_functions
 
-def read_gff():
+def main():
+    genome_sequence = gff_functions.read_fasta()
+    print(genome_sequence)
 
-def write_output():
+    gff_functions.read_gff()
+    gff_functions.write_output()
 
 
 # set the environment for this script
