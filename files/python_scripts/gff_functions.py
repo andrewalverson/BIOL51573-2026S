@@ -2,8 +2,15 @@
 
 import csv
 
-def read_fasta():
-    seq = 'ACGTT'
+def read_fasta(fasta_file):
+    # make a variable to store the genome sequence
+    seq = ''
+    with open(fasta_file, "r") as f:
+        for line in f:
+            if line.startswith(">"):
+                continue
+            else:
+                seq += line.rstrip()
     return seq
 
 def read_gff():

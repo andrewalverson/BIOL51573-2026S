@@ -21,10 +21,8 @@ def get_args():
 
 
 def main():
-    genome_sequence = gff_functions.read_fasta()
-    print(genome_sequence)
-
-    gff_functions.read_gff()
+    genome_sequence = gff_functions.read_fasta(args.fasta)
+    gff_functions.read_gff(args.gff3)
     gff_functions.write_output()
 
 ###------ calling get_args() happens out here on its own
