@@ -13,8 +13,15 @@ def read_fasta(fasta_file):
                 seq += line.rstrip()
     return seq
 
-def read_gff():
-    print("inside read_gff")
+def read_gff(gff3_file):
+    with open(gff3_file, "r") as g:
+        # create a csv reader object
+        reader = csv.reader(g, delimiter='\t')
+
+        # read the file line by line
+        for line in reader:
+            print(line)
+
 
 def write_output():
     print("inside write_output")
